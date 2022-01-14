@@ -1,6 +1,6 @@
 
 import {ReactComponent as GithubIcon} from '../../assets/img/github.svg';
-import '../styles.css';
+import '../Navbar/styles.css';
 
 function Navbar() {
     
@@ -10,9 +10,9 @@ function Navbar() {
               <div className='egames-nav-content'>
                 <h1>e-Games</h1>
                 <a href="https://github.com/FabianoCarregas">
-                  <div className='egame-contact-container'>
+                  <div className='egames-contact-container'>
                     <GithubIcon />
-                    <p className='egame-contact-link'>/FabianoCarregas</p>
+                    <p className='egames-contact-link'>/FabianoCarregas</p>
                   </div>
                 </a>
               </div>
