@@ -1,0 +1,30 @@
+
+header{
+    height: 60px;
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+}
+
+.egames-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.egames-nav-content h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.egame-contact-container {
+    display: flex;
+
+}
+.egame-contact-link {
+    margin: 0 0 0 10px;
+    color: #fff;
+    
+}
