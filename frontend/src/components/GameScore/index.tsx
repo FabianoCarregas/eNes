@@ -1,15 +1,17 @@
 import GameStars from "../GameStars";
 import '../GameScore/styles.css'
 
-function GameScore() {
+type Props = {
+    score: number;
+    count: number;
+} 
 
-const score = 3.5;
-const count = 13;
+function GameScore({ score, count } : Props) {
 
 return (
    <div className="egames-score-container">
         <p className="games-score-value">{score > 0 ? score.toFixed(1) : '-'}</p>
-        <GameStars />
+        <GameStars score={score} />
         <p className="egames-score-count">{count} avaliações</p>
     </div>
     )
