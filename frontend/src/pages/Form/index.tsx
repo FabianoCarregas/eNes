@@ -5,9 +5,8 @@ function Form(){
     
     const params = useParams();
 
-    return (
-       <FormCard gameId={`${params.gameId}`} />
-    );
+    return <FormCard gameId={`${params.gameId}`} />;
+    
 }
 
 export default Form;
